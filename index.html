@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ScholarPak - Website</title>
+<style>
+body{margin:0; font-family: Arial;}
+#header{background-color:white; padding:15px; border-bottom:1px solid black; text-align:center;}
+#header h1{color: blue; display:inline;}
+.menu{margin-top:10px;}
+.menu a{text-decoration:none; color: black; margin:10px; font-weight:bold;}
+
+#banner{
+background-image: url('https://images.unsplash.com/photo-1627556704302-624286467c65?w=1200');
+background-size:cover;
+background-position:center;
+color: white; 
+text-align:center; 
+padding:60px 15px;
+}
+#banner h1{font-size:28px;}
+#banner p{font-size:16px; margin-top:10px;}
+#banner .btn{background-color: yellowgreen; color:black; padding:10px 20px; text-decoration:none; display:inline-block; margin-top:15px; border-radius:5px; font-weight:bold;}
+
+#about{background-color:white; padding:20px;}
+#about h2{color: blue;}
+.about-left{width:55%; float:left; padding-right:15px;}
+.about-right{width:40%; float:right;}
+.about-right img{width:100%; border-radius:10px;}
+#about p{color: black; line-height:22px;}
+#about ul{margin-top:15px;}
+
+#contact{background-color:white; padding:20px; text-align:center; clear:both;}
+#contact input{width:90%; padding:8px; margin:5px; border:1px solid grey;}
+#contact button{background-color: blue; color:white; padding:10px 20px; border:none; width:90%; margin-top:10px;}
+
+#footer{background-color: blue; color:white; padding:20px; text-align:center;}
+#footer a{color:white; text-decoration:none; display:block; margin:3px;}
+
+/* Mobile ke liye basic responsive */
+@media(max-width:600px){
+.about-left{width:100%; float:none;}
+.about-right{width:100%; float:none; margin-top:15px;}
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>🎓 ScholarPak</h1>
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Scholarships</a>
+<a href="#">Contact Us</a>
+</div>
+</div>
+
+<div id="banner">
+<h1>Tension Khatam, Scholarship Hazir Hai!</h1>
+<p>Pakistan ki larkiyon ke liye 100% free aur verified scholarships</p>
+<a href="#" class="btn">Scholarships Dekho</a>
+</div>
+
+<div id="about">
+<h2>About Us</h2>
+
+<div class="about-left">
+<h3>Empowering Pakistani Girls Through Education</h3>
+<p>ScholarPak is dedicated to helping Pakistani girls access quality education through 100% free, verified, and accessible scholarships. We partner with universities, NGOs, and donors to provide financial support, mentorship, and guidance to talented girls across Pakistan. Our mission is to remove financial barriers and create opportunities.</p>
+<ul>
+<li>100% Verified Scholarships</li>
+<li>Mentorship & Career Guidance</li>
+<li>Nationwide Support for Students</li>
+</ul>
+</div>
+
+<div class="about-right">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600" alt="students studying">
+</div>
+
+</div>
+
+<div id="contact">
+<h2 style="color: blue;">Contact Us</h2>
+<p>Have questions? Get in touch with our team</p>
+<input type="text" placeholder="Your Name"><br>
+<input type="text" placeholder="Email Address"><br>
+<input type="text" placeholder="Write your message here..."><br>
+<button>Send Message</button>
+<p style="font-size:12px; margin-top:10px;">We typically respond within 24 hours</p>
+</div>
+
+<div id="footer">
+<h3>ScholarPak</h3>
+<p style="font-size:12px;">Empowering Pakistani girls to learn, grow, and succeed.</p>
+<br>
+<p><b>Quick Links</b></p>
+<a href="#">Home</a>
+<a href="#">About Us</a>
+<a href="#">Scholarships</a>
+<a href="#">Contact Us</a>
+<br>
+<p style="font-size:11px;">© 2024 ScholarPak. All rights reserved.</p>
+</div>
+
+</body>
+  </html>
+  
